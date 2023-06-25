@@ -13,6 +13,23 @@ Procedural switching barriers: These barriers pertain to the complexity and diff
 
 Option-related switching barriers: This barrier is associated with the availability and attractiveness of alternative options. If customers perceive limited or unappealing options, they are less likely to switch or in some case the option available is the only option.
 
-
 To analyze the data and understand the factors influencing switching behavior, we can use generalized linear models (GLM) with a binomial logit family. Logistic regression is used to model the relationship between the predictor variables (gender, age, profession, urban/rural status, recipient operator, etc.) and the switching behavior (1 for switched, 0 for not switched).
 
+
+data dictionary :
+
+SInt: switching intention 
+
+Price: Represents the price or cost associated with the mobile network operator's services.
+
+PSB: Procedural Switching Barrier. It represents a rating or measure of the procedural barriers to switching faced by the individual.
+
+ESB: Economic Switching Barrier. It represents a rating or measure of the economic barriers to switching faced by the individual.
+
+OSB: Operational Switching Barrier. It represents a rating or measure of the operational barriers, including option-related, social, and psychological factors, faced by the individual.
+
+Sat: Overall satisfaction rating provided by the individual. It represents their overall satisfaction with the services of the mobile network operator.
+
+Servqual: Service quality rating provided by the individual. It represents their perception or rating of the quality of service provided by the mobile network operator.
+
+SwBh: Switching behavior. It indicates whether the individual has actually switched their mobile network operator (1 = Switched, 0 = Not Switched).
